@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script>
+        
+        function Person(age,name)
+        {
+            this.age = age;
+            this.name = name;
+
+        }
+        
+        
+         var p1 = new Person(21,'name1');
+         var p2 = new Person(22,'name2');
+        Person.prototype.gender = "female";
+
+        document.write(p1.age+`<br>`);
+        document.write(p1.name+`<br>`);
+        document.write(p1.gender+`<br>`);
+
+
+       document.write(p2.age+`<br>`);
+        document.write(p2.name+`<br>`);
+        document.write(p2.gender+`<br>`);
+        
+
+
+        
+        
+        </script>
+    </head>
+</html>
